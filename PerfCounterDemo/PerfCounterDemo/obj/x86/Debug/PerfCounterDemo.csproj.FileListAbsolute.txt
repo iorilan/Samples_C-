@@ -1,0 +1,5 @@
+E:\Demo\PerfCounterDemo\PerfCounterDemo\bin\Debug\PerfCounterDemo.exe
+E:\Demo\PerfCounterDemo\PerfCounterDemo\bin\Debug\PerfCounterDemo.pdb
+E:\Demo\PerfCounterDemo\PerfCounterDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Demo\PerfCounterDemo\PerfCounterDemo\obj\x86\Debug\PerfCounterDemo.exe
+E:\Demo\PerfCounterDemo\PerfCounterDemo\obj\x86\Debug\PerfCounterDemo.pdb

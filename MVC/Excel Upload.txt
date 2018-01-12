@@ -1,0 +1,61 @@
+﻿...
+using (var reader = ExcelReaderFactory.CreateReader(stream))
+            {
+                if (reader.ResultsCount > 50)
+                {
+                    TempData["error"] = "The maximum row while uploading is 50";
+                    return RedirectToAction("UploadResult");
+                }
+                else
+                {
+                    var list = new List<Sample>();
+                    var service = new YourService();
+                    do
+                    {
+                        while (reader.Read())
+                        {
+                            //// by pass column name row
+                            if (isReadingColumn)
+                            {
+                                continue;
+                            }
+
+                            var obj = service.GetObjFromReader(reader);
+                            list.Add(obj);
+                        }
+                    } while (reader.NextResult());
+		}
+	   }
+...
+
+service class:
+...
+     public Sample GetObjFromReader(IExcelDataReader reader)
+        {
+            // those are the columns specified in excel template
+            // ************* must follow the sequence **************
+	    // Field1
+	    // Field2
+	    // DateField
+	    // ...
+            try
+            {
+                var obj = new Sample();
+                obj.Field1 = reader.GetString(0);
+                obj.Field2 = reader.GetString(1);
+		var dtStr = FromExcelDate(reader.GetDouble(2));
+                obj.DOB = dtStr;
+              ...
+                return obj;
+            }
+            catch (Exception ex)
+            {
+		...
+            }
+        }
+        private static DateTime FromExcelDate(double value)
+        {
+            return new DateTime(1899, 12, 30).AddDays(value);
+        }
+		
+...

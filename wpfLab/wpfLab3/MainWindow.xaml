@@ -1,0 +1,60 @@
+﻿<Window x:Class="wpfLab3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Expander Header="定位">
+            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top"
+                        Margin="0 5" FlowDirection="RightToLeft" Width="500">
+                <Label Content="aaa">
+                    
+                </Label>
+                <Button Width="100" Height="54" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom">Hello</Button>
+            </StackPanel>
+        </Expander>
+        <Expander Header="旋转">
+            <StackPanel>
+            <Button Content="RotaedTransform" Width="50" Height="24" >
+                <Button.LayoutTransform>
+                    <RotateTransform Angle="45">
+                        
+                    </RotateTransform>
+                </Button.LayoutTransform>
+            </Button>
+                <Button Content="SkewTransform" Width="50" Height="24" >
+                    <Button.LayoutTransform>
+                        <SkewTransform AngleX="25" AngleY="10" CenterX="20" CenterY="0">
+
+                        </SkewTransform>
+                    </Button.LayoutTransform>
+                </Button>
+                <Button Content="ScaleT" Width="50" Height="24" >
+                    <Button.LayoutTransform>
+                        <ScaleTransform ScaleX="2" ScaleY="1.5">
+
+                        </ScaleTransform>
+                    </Button.LayoutTransform>
+                </Button>
+
+                <Button Content="TranslateT" Width="50" Height="24" >
+                    <Button.RenderTransform>
+                        <TranslateTransform X="10" Y="0">
+
+                        </TranslateTransform>
+                    </Button.RenderTransform>
+                </Button>
+
+                <Button Content="TGGGGG" Width="50" Height="24" >
+                    <Button.LayoutTransform>
+                        <TransformGroup>
+                            <RotateTransform Angle="45"></RotateTransform>
+                            <ScaleTransform ScaleX="1" ScaleY="1"></ScaleTransform>
+                            <SkewTransform AngleX="30" AngleY="10"></SkewTransform>
+                        </TransformGroup>
+                    </Button.LayoutTransform>
+                </Button>
+            </StackPanel>
+        </Expander>
+       
+    </StackPanel>
+</Window>

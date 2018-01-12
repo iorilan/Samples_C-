@@ -1,0 +1,17 @@
+﻿<Window x:Class="wpfLab6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="clr-namespace:wpfLab6"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <ListBox x:Name="lstImgs">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Image Width="100" Height="30" Source="{Binding Path=FullPath}">
+                        
+                    </Image>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </StackPanel>
+</Window>

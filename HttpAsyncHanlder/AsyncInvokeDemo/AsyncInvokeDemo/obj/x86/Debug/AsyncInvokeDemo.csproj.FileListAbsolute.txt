@@ -1,0 +1,5 @@
+E:\Demo\AsyncInvokeDemo\AsyncInvokeDemo\bin\Debug\AsyncInvokeDemo.exe
+E:\Demo\AsyncInvokeDemo\AsyncInvokeDemo\bin\Debug\AsyncInvokeDemo.pdb
+E:\Demo\AsyncInvokeDemo\AsyncInvokeDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Demo\AsyncInvokeDemo\AsyncInvokeDemo\obj\x86\Debug\AsyncInvokeDemo.exe
+E:\Demo\AsyncInvokeDemo\AsyncInvokeDemo\obj\x86\Debug\AsyncInvokeDemo.pdb

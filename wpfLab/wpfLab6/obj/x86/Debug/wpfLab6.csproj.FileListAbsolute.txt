@@ -1,0 +1,14 @@
+E:\Demo\wpfLab1\wpfLab6\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Demo\wpfLab1\wpfLab6\obj\x86\Debug\App.g.cs
+E:\Demo\wpfLab1\wpfLab6\obj\x86\Debug\wpfLab6_MarkupCompile.cache
+E:\Demo\wpfLab1\wpfLab6\bin\Debug\wpfLab6.exe
+E:\Demo\wpfLab1\wpfLab6\bin\Debug\wpfLab6.pdb
+E:\Demo\wpfLab1\wpfLab6\obj\x86\Debug\MainWindow.g.cs
+E:\Demo\wpfLab1\wpfLab6\obj\x86\Debug\wpfLab6_MarkupCompile.lref
+E:\Demo\wpfLab1\wpfLab6\obj\x86\Debug\MainWindow.baml
+E:\Demo\wpfLab1\wpfLab6\obj\x86\Debug\wpfLab6.g.resources
+E:\Demo\wpfLab1\wpfLab6\obj\x86\Debug\wpfLab6.Properties.Resources.resources
+E:\Demo\wpfLab1\wpfLab6\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Demo\wpfLab1\wpfLab6\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Demo\wpfLab1\wpfLab6\obj\x86\Debug\wpfLab6.exe
+E:\Demo\wpfLab1\wpfLab6\obj\x86\Debug\wpfLab6.pdb

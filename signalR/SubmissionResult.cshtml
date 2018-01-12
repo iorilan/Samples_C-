@@ -1,0 +1,103 @@
+﻿@model SingpoolVerificationApp.Controllers.HomeController.SubmissionResult
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/assets3/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/assets3/global/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/jquery.signalR-2.2.2.min.js"></script>
+    <script src="~/SignalR/hubs"></script>
+
+    <meta name="viewport" content="width=device-width" />
+    <title>SubmissionResult</title>
+</head>
+<body>
+    <div class="container">
+        
+        <p class="h3">
+            You are number <h1 id="queueNo" class="h1"><b>@Model.QueueNo</b></h1> in the queue.    
+        </p>
+        
+        <p class="h3">
+            estimate waiting time is
+            <h1 id="minites" class="h1">
+                <b>
+                @{
+                    var min = Model.QueueNo * 10;
+                }@min </b> minutes
+            </h1>
+        </p>
+</div>
+
+
+
+<script>
+    $(document).ready(function() {
+
+        var checkQNo = function() {
+            var url = '@Url.Action("CheckQueueNo")' +
+                "?guestName=" +
+                encodeURIComponent('@Model.GuestName');
+            $.ajax({
+                url: url,
+                type: 'post',
+                success: function (data) {
+                    console.log(data);
+                    var number = parseInt(data.Data1);
+                    if (number <= 0) {
+                        return;
+                    }
+
+                    $("#queueNo").html("<b>"+number+"</b>");
+                    $("#minites").html("<b>"+number * 10+"</b>");
+                },
+                fail: function (data) {
+                    console.error(data);
+                    //do nothing
+                }
+            });
+        }
+
+
+        setInterval(checkQNo, 5000);
+
+
+
+
+        /*
+        SignalR
+        */
+        // Defining a connection to the server hub.
+        var myHub = $.connection.submissionHub;
+        // Client method to broadcast the message
+        myHub.client.commandText = function (message) {
+            console.log("command : " + message);
+            if (message == "videocall") {
+                window.location = '@Url.Action("VideoCallGuest","Video")'+"?guestName=@Model.GuestName"
+            } else {
+                //unknown command
+            }
+
+        };
+
+        console.log("step 1");
+        // Setting logging to true so that we can see whats happening in the browser console log. [OPTIONAL]
+        $.connection.hub.logging = true;
+        console.log("step 2");
+
+        // Start the hub
+        $.connection.hub.start().done(function () {
+            console.log("Connected, transport = " + $.connection.hub.transport.name);
+            myHub.server.hiServer("@Model.GuestName");
+        });
+
+
+    });
+</script>
+
+</body>
+</html>

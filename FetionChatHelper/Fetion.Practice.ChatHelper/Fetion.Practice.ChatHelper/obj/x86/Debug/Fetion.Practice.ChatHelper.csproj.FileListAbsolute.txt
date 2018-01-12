@@ -1,0 +1,9 @@
+E:\Demo\FetionChatHelper\Fetion.Practice.ChatHelper\Fetion.Practice.ChatHelper\bin\Debug\Fetion.Practice.ChatHelper.exe
+E:\Demo\FetionChatHelper\Fetion.Practice.ChatHelper\Fetion.Practice.ChatHelper\bin\Debug\Fetion.Practice.ChatHelper.pdb
+E:\Demo\FetionChatHelper\Fetion.Practice.ChatHelper\Fetion.Practice.ChatHelper\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Demo\FetionChatHelper\Fetion.Practice.ChatHelper\Fetion.Practice.ChatHelper\obj\x86\Debug\Fetion.Practice.ChatHelper.Properties.Resources.resources
+E:\Demo\FetionChatHelper\Fetion.Practice.ChatHelper\Fetion.Practice.ChatHelper\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Demo\FetionChatHelper\Fetion.Practice.ChatHelper\Fetion.Practice.ChatHelper\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Demo\FetionChatHelper\Fetion.Practice.ChatHelper\Fetion.Practice.ChatHelper\obj\x86\Debug\Fetion.Practice.ChatHelper.exe
+E:\Demo\FetionChatHelper\Fetion.Practice.ChatHelper\Fetion.Practice.ChatHelper\obj\x86\Debug\Fetion.Practice.ChatHelper.pdb
+E:\Demo\FetionChatHelper\Fetion.Practice.ChatHelper\Fetion.Practice.ChatHelper\obj\x86\Debug\Fetion.Practice.ChatHelper.FrmMain.resources

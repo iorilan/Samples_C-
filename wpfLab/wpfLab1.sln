@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfLab1", "wpfLab1\wpfLab1.csproj", "{CD694815-2C88-4EC2-AF66-E7DD3439DE2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfLab2", "wpfLab2\wpfLab2.csproj", "{E36D03A0-B956-4659-AB33-2227582BBBCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfLab3", "wpfLab3\wpfLab3.csproj", "{95C20EA8-2D4C-4012-9D90-C6867C8FE4A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpflab4", "wpflab4\wpflab4.csproj", "{CE7A39D7-6FDF-4CB9-AE49-FE314DED4A6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfLab5", "wpfLab5\wpfLab5.csproj", "{F4145473-0A16-4231-BFE8-04E5C58E73D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfLab6", "wpfLab6\wpfLab6.csproj", "{9EBE0E0C-F07E-4EDD-B9B8-322C9504EC31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpflab7", "wpflab7\wpflab7.csproj", "{CCF7BFD8-1208-408D-BF42-8ED4E78D7075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfLab8", "wpfLab8\wpfLab8.csproj", "{FB77D9EA-140B-46AA-B6F2-78079BA8028C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD694815-2C88-4EC2-AF66-E7DD3439DE2F}.Debug|x86.ActiveCfg = Debug|x86
+		{CD694815-2C88-4EC2-AF66-E7DD3439DE2F}.Debug|x86.Build.0 = Debug|x86
+		{CD694815-2C88-4EC2-AF66-E7DD3439DE2F}.Release|x86.ActiveCfg = Release|x86
+		{CD694815-2C88-4EC2-AF66-E7DD3439DE2F}.Release|x86.Build.0 = Release|x86
+		{E36D03A0-B956-4659-AB33-2227582BBBCB}.Debug|x86.ActiveCfg = Debug|x86
+		{E36D03A0-B956-4659-AB33-2227582BBBCB}.Debug|x86.Build.0 = Debug|x86
+		{E36D03A0-B956-4659-AB33-2227582BBBCB}.Release|x86.ActiveCfg = Release|x86
+		{E36D03A0-B956-4659-AB33-2227582BBBCB}.Release|x86.Build.0 = Release|x86
+		{95C20EA8-2D4C-4012-9D90-C6867C8FE4A2}.Debug|x86.ActiveCfg = Debug|x86
+		{95C20EA8-2D4C-4012-9D90-C6867C8FE4A2}.Debug|x86.Build.0 = Debug|x86
+		{95C20EA8-2D4C-4012-9D90-C6867C8FE4A2}.Release|x86.ActiveCfg = Release|x86
+		{95C20EA8-2D4C-4012-9D90-C6867C8FE4A2}.Release|x86.Build.0 = Release|x86
+		{CE7A39D7-6FDF-4CB9-AE49-FE314DED4A6B}.Debug|x86.ActiveCfg = Debug|x86
+		{CE7A39D7-6FDF-4CB9-AE49-FE314DED4A6B}.Debug|x86.Build.0 = Debug|x86
+		{CE7A39D7-6FDF-4CB9-AE49-FE314DED4A6B}.Release|x86.ActiveCfg = Release|x86
+		{CE7A39D7-6FDF-4CB9-AE49-FE314DED4A6B}.Release|x86.Build.0 = Release|x86
+		{F4145473-0A16-4231-BFE8-04E5C58E73D5}.Debug|x86.ActiveCfg = Debug|x86
+		{F4145473-0A16-4231-BFE8-04E5C58E73D5}.Debug|x86.Build.0 = Debug|x86
+		{F4145473-0A16-4231-BFE8-04E5C58E73D5}.Release|x86.ActiveCfg = Release|x86
+		{F4145473-0A16-4231-BFE8-04E5C58E73D5}.Release|x86.Build.0 = Release|x86
+		{9EBE0E0C-F07E-4EDD-B9B8-322C9504EC31}.Debug|x86.ActiveCfg = Debug|x86
+		{9EBE0E0C-F07E-4EDD-B9B8-322C9504EC31}.Debug|x86.Build.0 = Debug|x86
+		{9EBE0E0C-F07E-4EDD-B9B8-322C9504EC31}.Release|x86.ActiveCfg = Release|x86
+		{9EBE0E0C-F07E-4EDD-B9B8-322C9504EC31}.Release|x86.Build.0 = Release|x86
+		{CCF7BFD8-1208-408D-BF42-8ED4E78D7075}.Debug|x86.ActiveCfg = Debug|x86
+		{CCF7BFD8-1208-408D-BF42-8ED4E78D7075}.Debug|x86.Build.0 = Debug|x86
+		{CCF7BFD8-1208-408D-BF42-8ED4E78D7075}.Release|x86.ActiveCfg = Release|x86
+		{CCF7BFD8-1208-408D-BF42-8ED4E78D7075}.Release|x86.Build.0 = Release|x86
+		{FB77D9EA-140B-46AA-B6F2-78079BA8028C}.Debug|x86.ActiveCfg = Debug|x86
+		{FB77D9EA-140B-46AA-B6F2-78079BA8028C}.Debug|x86.Build.0 = Debug|x86
+		{FB77D9EA-140B-46AA-B6F2-78079BA8028C}.Release|x86.ActiveCfg = Release|x86
+		{FB77D9EA-140B-46AA-B6F2-78079BA8028C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

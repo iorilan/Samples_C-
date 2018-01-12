@@ -1,0 +1,5 @@
+E:\Demo\HttpRequestSender\HttpRequestSender\bin\HttpRequestSender.dll
+E:\Demo\HttpRequestSender\HttpRequestSender\bin\HttpRequestSender.pdb
+E:\Demo\HttpRequestSender\HttpRequestSender\obj\Debug\ResolveAssemblyReference.cache
+E:\Demo\HttpRequestSender\HttpRequestSender\obj\Debug\HttpRequestSender.dll
+E:\Demo\HttpRequestSender\HttpRequestSender\obj\Debug\HttpRequestSender.pdb

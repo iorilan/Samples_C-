@@ -1,0 +1,243 @@
+﻿<Window x:Class="wpfLab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:src="clr-namespace:wpfLab2"
+        Title="MainWindow" Height="950" Width="525">
+
+    <StackPanel>
+
+        <Expander Header="Buttons">
+        <StackPanel>
+            <Button x:Name="btnOk" Content="ok" Width="60" Height="24" ToolTipService.ShowDuration="3000">
+                <Button.ToolTip>
+                    <ToolTip Opened="ToolTip_Opened" Closed="ToolTip_Closed">
+                        <StackPanel Width="100" Height="50">
+                            <TextBlock Text="hello"></TextBlock>
+                        </StackPanel>
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            <StackPanel Orientation="Horizontal">
+                <RepeatButton x:Name="btnRepeat" Width="60" Height="24" Content="repeat" Interval="100" Click="btnRepeat_Click"></RepeatButton>
+                <Label x:Name="lblCount" Content="0" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <ToggleButton x:Name="btnToggle" Width="60" Height="24" Content="toggle" IsThreeState="True"
+                      Checked="btnToggle_Checked"  Unchecked="btnToggle_Unchecked" 
+                      Indeterminate="btnToggle_Indeterminate"></ToggleButton>
+                <Label x:Name="lblToggle" Content="" />
+            </StackPanel>
+        </StackPanel>
+        </Expander>
+        
+        <Expander Header="GroupBox">
+        <!--<Frame Source="http://www.baidu.com" NavigationUIVisibility="Visible"></Frame>-->
+        <GroupBox Header="country">
+            <StackPanel>
+                <CheckBox x:Name="chkChina" Content="china" ></CheckBox>
+                <CheckBox x:Name="chkUsa" Content="usa"></CheckBox>
+                <CheckBox x:Name="chkFrance" Content="france"></CheckBox>
+            </StackPanel>
+
+        </GroupBox>
+</Expander>
+        
+        <Expander Header="CheckBox" Expanded="Expander_Expanded" Collapsed="Expander_Collapsed" ExpandDirection="Down">
+            <StackPanel>
+                <CheckBox x:Name="chkQQ" Content="qq" ></CheckBox>
+                <CheckBox x:Name="chkSina" Content="sina"></CheckBox>
+                <CheckBox x:Name="chkFeinno" Content="fetion"></CheckBox>
+            </StackPanel>
+
+        </Expander>
+        <Expander Header="RadioButton">
+            <StackPanel Orientation="Horizontal">
+                <RadioButton Content="c" GroupName="programing"></RadioButton>
+                <RadioButton Content="c++"  GroupName="programing"></RadioButton>
+                <RadioButton Content="cpp"  GroupName="programing1"></RadioButton>
+            </StackPanel>
+        </Expander>
+
+        <Expander Header="ComboBox">
+            <ComboBox IsEditable="True"  TextSearch.TextPath="Content.Children[0].Content">
+                <ComboBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <VirtualizingStackPanel Orientation="Horizontal"></VirtualizingStackPanel>
+                    </ItemsPanelTemplate>
+                </ComboBox.ItemsPanel>
+                <ComboBoxItem >
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="冬季"></Label>
+                        <Image Source="/wpfLab2;component/bin/Debug/1.jpg" Stretch="Fill" Width="40" Height="40"></Image>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="春季"></Label>
+                        <Image Source="/wpfLab2;component/bin/Debug/2.jpg" Stretch="Fill" Width="40" Height="40"></Image>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem TextSearch.Text="a hot season!!!">
+                    <StackPanel Orientation="Horizontal" >
+                        <Label Content="夏季"></Label>
+                        <Image Source="/wpfLab2;component/bin/Debug/3.jpg" Stretch="Fill" Width="40" Height="40"></Image>
+                    </StackPanel>
+                </ComboBoxItem>
+            </ComboBox>
+        </Expander>
+
+        <Expander Header="ListBox">
+            <ListBox>
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <VirtualizingStackPanel Orientation="Horizontal"></VirtualizingStackPanel>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+                <ListBoxItem TextSearch.Text="d">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="冬季"></Label>
+                        <Image Source="/wpfLab2;component/bin/Debug/1.jpg" Stretch="Fill" Width="40" Height="40"></Image>
+                    </StackPanel>
+                </ListBoxItem>
+                <ListBoxItem TextSearch.Text="c">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="春季"></Label>
+                        <Image Source="/wpfLab2;component/bin/Debug/2.jpg" Stretch="Fill" Width="40" Height="40"></Image>
+                    </StackPanel>
+                </ListBoxItem>
+                <ListBoxItem TextSearch.Text="x">
+                    <StackPanel Orientation="Horizontal" >
+                        <Label Content="夏季"></Label>
+                        <Image Source="/wpfLab2;component/bin/Debug/3.jpg" Stretch="Fill" Width="40" Height="40"></Image>
+                    </StackPanel>
+                </ListBoxItem>
+            </ListBox>
+        </Expander>
+        <Expander Header="ListView">
+            <ListView x:Name="lstStudent">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="name" DisplayMemberBinding="{Binding Path=Name}"></GridViewColumn>
+                        <GridViewColumn Header="id" DisplayMemberBinding="{Binding Path=Id}"></GridViewColumn>
+                        <GridViewColumn Header="className" DisplayMemberBinding="{Binding Path=ClassName}"></GridViewColumn>
+                    </GridView>
+                </ListView.View>
+
+            </ListView>
+        </Expander>
+
+        <Expander Header="TabControl">
+            <TabControl>
+                <TabItem Header="first">
+                    <Label Content="tab1"></Label>
+                </TabItem>
+                <TabItem Header="2nd">
+                    <Label Content="tab2"></Label>
+                </TabItem>
+                <TabItem Header="3rd">
+                    <Label Content="tab3"></Label>
+                </TabItem>
+            </TabControl>
+        </Expander>
+        <Expander Header="Menu">
+            <Menu x:Name="mnTest" >
+
+                <MenuItem Header="File" x:Name="mnFile">
+
+                    <MenuItem Header="_Open" Click="MenuItem_Click">
+
+                    </MenuItem>
+                    <MenuItem Header="_Edit"></MenuItem>
+                    <MenuItem Header="_Close"></MenuItem>
+                    <Separator></Separator>
+                    <MenuItem Header="SendTo"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="View"></MenuItem>
+                <MenuItem Header="Abort"></MenuItem>
+            </Menu>
+        </Expander>
+        <Expander Header="ListBox">
+            <ListBox>
+                <ListBox.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="hello" ></MenuItem>
+                        <MenuItem Header="click me" ></MenuItem>
+                        <MenuItem Header="abort me" ></MenuItem>
+                    </ContextMenu>
+                </ListBox.ContextMenu>
+                <ListBoxItem>aaa</ListBoxItem>
+                <ListBoxItem>bbb</ListBoxItem>
+                <ListBoxItem>ccc</ListBoxItem>
+            </ListBox>
+        </Expander>
+        <Expander Header="TreeView">
+            <StackPanel>
+                <!--<Grid.Resources>
+                <HierarchicalDataTemplate DataType="{x:Type src:LeafNode}"
+ItemsSource="{Binding Path=Children}">
+                        <TextBlock Text="{Binding Path=Data}" ToolTip="{Binding Path=Data}"></TextBlock>
+                </HierarchicalDataTemplate>
+            </Grid.Resources>-->
+                <TreeView x:Name="twLeaf" TreeViewItem.Selected="twLeaf_Selected">
+                    <TreeView.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="delete" Click="MenuItem_Click_1"></MenuItem>
+                        </ContextMenu>
+                    </TreeView.ContextMenu>
+                </TreeView>
+                <Button x:Name="btnGetNodes" Content="GetNodes" Height="24" Width="60" Click="btnGetNodes_Click"></Button>
+            </StackPanel>
+        </Expander>
+
+        
+
+        <Expander Header="Range Control">
+            <StackPanel>
+                <ToolBar>
+                    <Button Content="A" Height="24" Width="20"></Button>
+                    <Button Content="B" Height="24" Width="20"></Button>
+                    <Button Content="C" Height="24" Width="20"></Button>
+                    <Button Content="D" Height="24" Width="20"></Button>
+                </ToolBar>
+
+                <StatusBar>
+                    <Label Content="AAA"></Label>
+                    <Button Content="BBB"></Button>
+                    <TextBox Text="CCC"></TextBox>
+                </StatusBar>
+
+                <StackPanel Orientation="Horizontal">
+                    <ProgressBar x:Name="pgTest" Width="200" Height="24" IsIndeterminate="False"></ProgressBar>
+                    <Button x:Name="btnAddPro" Width="50" Height="24" Content="Add" Click="btnAddPro_Click"></Button>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal">
+                    <Slider x:Name="slTest" Width="200" IsSelectionRangeEnabled="True" SelectionStart="20" SelectionEnd="60" ValueChanged="slTest_ValueChanged" Maximum="300" Minimum="0"></Slider>
+                    <Label x:Name="lblSlider"></Label>
+                    <Button x:Name="btnSliderValue" Width="50" Height="24" Content="Val" Click="btnSliderValue_Click"></Button>
+                </StackPanel>
+                
+            </StackPanel>
+        </Expander>
+
+        <Expander  Header="TextBox">
+            <RichTextBox >
+                <RichTextBox.Document>
+                    <FlowDocument>
+                        
+                    </FlowDocument>
+                </RichTextBox.Document>
+            </RichTextBox>
+        </Expander>
+
+        <Expander Header="Canvas">
+            <StackPanel>
+            <InkCanvas Margin="10 0" Background="White" Width="500" Height="100" x:Name="cvs">
+                
+            </InkCanvas>
+                <Button x:Name="saveCvs" Content="Save" Width="50" Height="24" Click="saveCvs_Click"></Button>
+            </StackPanel>
+        </Expander>
+    </StackPanel>
+
+</Window>

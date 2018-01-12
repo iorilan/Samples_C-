@@ -1,0 +1,9 @@
+E:\Demo\wpfLab1\wpflab7\bin\Debug\wpflab7.exe
+E:\Demo\wpfLab1\wpflab7\bin\Debug\wpflab7.pdb
+E:\Demo\wpfLab1\wpflab7\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Demo\wpfLab1\wpflab7\obj\x86\Debug\wpflab7.Form1.resources
+E:\Demo\wpfLab1\wpflab7\obj\x86\Debug\wpflab7.Properties.Resources.resources
+E:\Demo\wpfLab1\wpflab7\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Demo\wpfLab1\wpflab7\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Demo\wpfLab1\wpflab7\obj\x86\Debug\wpflab7.exe
+E:\Demo\wpfLab1\wpflab7\obj\x86\Debug\wpflab7.pdb

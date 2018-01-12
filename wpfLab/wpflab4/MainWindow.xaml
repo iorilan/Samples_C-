@@ -1,0 +1,55 @@
+﻿<Window x:Class="wpflab4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="650" Width="525">
+    <StackPanel>
+        
+    
+    <Grid Height="60">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+            <Button Grid.Row="1" Grid.Column="1" Content="AAA" Width="50" 
+                    Height="20"></Button>
+            <GridSplitter Width="5" Grid.Column="1"></GridSplitter>
+        </Grid>
+        <Canvas Width="100" Height="30" HorizontalAlignment="Left">
+            <Button Width="20" Height="20" Content="A"
+                    Canvas.Left="10" Canvas.Top="10"></Button>
+        </Canvas>
+        <WrapPanel>
+            <Button Width="200" Height="24" Content="A" Margin="20 0"></Button>
+            <Button Width="200" Height="24" Content="B" Margin="20 0"></Button>
+            <Button Width="200" Height="24" Content="C" Margin="20 0"></Button>
+        </WrapPanel>
+        <DockPanel Width="200" Height="200" >
+            <Button Height="24" Width="60" Content="A" DockPanel.Dock="Top" ></Button>
+            <Button Height="24" Width="60" Content="B" DockPanel.Dock="Right"></Button>
+            <Button Height="24" Width="60" Content="C" DockPanel.Dock="Left"></Button>
+        </DockPanel>
+
+        <UniformGrid Width="100" Height="100">
+            <Button Width="20" Height="20"></Button>
+<Button Width="20" Height="20"></Button>
+            <Button Width="20" Height="20"></Button>
+            <Button Width="20" Height="20"></Button>
+            <Button Width="20" Height="20"></Button>
+            <Button Width="20" Height="20"></Button>
+            <Button Width="20" Height="20"></Button>
+        </UniformGrid>
+        <ScrollViewer Height="50">
+            <StackPanel>
+                <Button Height="24" Width="50" Content="A"></Button>
+                <Button Height="14" Width="50" Content="A"></Button>
+                <Button Height="14" Width="50" Content="A"></Button>
+            </StackPanel>
+        </ScrollViewer>
+    </StackPanel>
+</Window>

@@ -1,0 +1,15 @@
+E:\Demo\wpfLab1\wpfLab2\bin\Debug\wpfLab2.exe
+E:\Demo\wpfLab1\wpfLab2\bin\Debug\wpfLab2.pdb
+E:\Demo\wpfLab1\wpfLab2\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Demo\wpfLab1\wpfLab2\obj\x86\Debug\MainWindow.baml
+E:\Demo\wpfLab1\wpfLab2\obj\x86\Debug\MainWindow.g.cs
+E:\Demo\wpfLab1\wpfLab2\obj\x86\Debug\App.g.cs
+E:\Demo\wpfLab1\wpfLab2\obj\x86\Debug\wpfLab2_MarkupCompile.cache
+E:\Demo\wpfLab1\wpfLab2\obj\x86\Debug\wpfLab2.g.resources
+E:\Demo\wpfLab1\wpfLab2\obj\x86\Debug\wpfLab2.Properties.Resources.resources
+E:\Demo\wpfLab1\wpfLab2\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Demo\wpfLab1\wpfLab2\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Demo\wpfLab1\wpfLab2\obj\x86\Debug\wpfLab2.exe
+E:\Demo\wpfLab1\wpfLab2\obj\x86\Debug\wpfLab2.pdb
+E:\Demo\wpfLab1\wpfLab2\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Demo\wpfLab1\wpfLab2\obj\x86\Debug\wpfLab2_MarkupCompile.lref

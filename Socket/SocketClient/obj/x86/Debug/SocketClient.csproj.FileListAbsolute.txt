@@ -1,0 +1,9 @@
+E:\Demo\Fetion.Practice.WebSocketDemo\SocketClient\bin\Debug\SocketClient.exe
+E:\Demo\Fetion.Practice.WebSocketDemo\SocketClient\bin\Debug\SocketClient.pdb
+E:\Demo\Fetion.Practice.WebSocketDemo\SocketClient\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Demo\Fetion.Practice.WebSocketDemo\SocketClient\obj\x86\Debug\SocketClient.Form1.resources
+E:\Demo\Fetion.Practice.WebSocketDemo\SocketClient\obj\x86\Debug\SocketClient.Properties.Resources.resources
+E:\Demo\Fetion.Practice.WebSocketDemo\SocketClient\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Demo\Fetion.Practice.WebSocketDemo\SocketClient\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Demo\Fetion.Practice.WebSocketDemo\SocketClient\obj\x86\Debug\SocketClient.exe
+E:\Demo\Fetion.Practice.WebSocketDemo\SocketClient\obj\x86\Debug\SocketClient.pdb

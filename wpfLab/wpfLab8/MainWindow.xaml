@@ -1,0 +1,56 @@
+﻿<Window x:Class="wpfLab8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    
+    <Window.Resources>
+        <Style x:Key="btnBase" TargetType="Button">
+            <Setter Property="Width" Value="60"></Setter>
+            <Setter Property="Height" Value="24"></Setter>
+        </Style>
+        <Style x:Key="btnStyle" TargetType="Button" BasedOn="{StaticResource ResourceKey=btnBase}">
+            <Setter Property="Background" Value="#000fff"></Setter>
+            <Setter Property="RenderTransform">
+                <Setter.Value>
+                    <RotateTransform Angle="45">
+                        
+                    </RotateTransform>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+        <ControlTemplate x:Key="roundBtn">
+            
+        </ControlTemplate>
+        
+    </Window.Resources>
+    
+    <StackPanel>
+        <Button x:Name="btnTest" Style="{StaticResource ResourceKey=btnStyle}" Content="AAA"></Button>
+
+        <Button x:Name="btnTest2" Width="60" Height="24" Content="BBB">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#212121"></Setter>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+        <TextBox Width="60" Height="24" >
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Style.Triggers>
+                        <DataTrigger 
+                            Binding="{Binding RelativeSource={RelativeSource Self},Path=Text}"
+                            Value="disable">
+                            <Setter Property="IsEnabled" Value="False"></Setter>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+    </StackPanel>
+</Window>
