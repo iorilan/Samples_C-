@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
-using NEC.ESBU.Ticketing.DataAccess.EntityFramework;
-using NEC.ESBU.Ticketing.DataAccess.EntityFramework.Models;
 
-namespace NEC.ESBU.Ticketing.Business.Logics.Helpers
+namespace Business.Logics.Helpers
 {
     public class TicketingStoreProcedureCalls : ITicketingStoreProcedureCalls
     {

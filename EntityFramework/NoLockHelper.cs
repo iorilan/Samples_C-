@@ -1,6 +1,6 @@
 ﻿using System.Transactions;
 
-namespace NEC.ESBU.Ticketing.Business.Logics.DataAccessExtensions
+namespace Business.Logics.DataAccessExtensions
 {
     public static class NoLockHelper 
     {
