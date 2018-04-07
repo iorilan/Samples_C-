@@ -1,8 +1,8 @@
 ﻿using System;
-using NEC.ESBU.Ticketing.Client.ValidatorBase.AdminFunctions;
-using NEC.ESBU.Ticketing.Client.ValidatorBase.Config;
+using  .Client.ValidatorBase.AdminFunctions;
+using  .Client.ValidatorBase.Config;
 
-namespace NEC.ESBU.Ticketing.Client.ValidatorBase.LocalStorage
+namespace  .Client.ValidatorBase.LocalStorage
 {
 
     //    For offline mode, we need to capture these fields and separated by pipe “|” as the delimiter

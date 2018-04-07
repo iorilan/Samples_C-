@@ -1,7 +1,7 @@
 ﻿using System;
 using SQLite;
 
-namespace NEC.ESBU.Ticketing.Client.ValidatorBase.LocalStorage
+namespace  .Client.ValidatorBase.LocalStorage
 {
     public abstract class LocalStorageBaseModel
     {

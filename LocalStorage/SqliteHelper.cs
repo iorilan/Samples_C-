@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using log4net;
 
-namespace NEC.ESBU.Ticketing.Client.ValidatorBase.LocalStorage
+namespace  .Client.ValidatorBase.LocalStorage
 {
     /// <summary>
     /// the local storage features is to support offline mode

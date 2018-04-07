@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NEC.ESBU.Ticketing.Client.ValidatorBase.Helpers
+namespace  .Client.ValidatorBase.Helpers
 {
     public static class ZipUtil
     {

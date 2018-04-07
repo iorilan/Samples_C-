@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace NEC.ESBU.Ticketing.Client.ValidatorBase.BackgroundWorkers
+namespace  .Client.ValidatorBase.BackgroundWorkers
 {
     /// <summary>
     /// a wrpper of background worker

@@ -4,10 +4,8 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using log4net;
-using NEC.ESBU.Ticketing.Client.ValidatorBase.Helpers;
-using NEC.ESBU.Ticketing.Client.ValidatorBase.ValidatorCommands;
 
-namespace NEC.ESBU.Ticketing.Client.ValidatorBase.Communicators
+namespace Communicators
 {
     /// <summary>
     /// the two validators communicate using JSON format and UDP protoco
