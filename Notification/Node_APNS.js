@@ -37,7 +37,7 @@ function Send_APNS(param_msg, param_device){
 	var notification = new apn.Notification();
 
 	// Specify your iOS app's Bundle ID (accessible within the project editor)
-	notification.topic = 'nec.com.sg.BCMS';
+	notification.topic = 'yours';
 
 	// Set expiration to 1 hour from now (in case device is offline)
 	notification.expiry = Math.floor(Date.now() / 1000) + 3600;
