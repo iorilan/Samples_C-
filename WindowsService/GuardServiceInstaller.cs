@@ -8,7 +8,7 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NEC.eGalaxy.GuardService
+namespace GuardService
 {
     [RunInstaller(true)]
     public partial class GuardServiceInstaller : Installer

@@ -2,13 +2,13 @@
 using System.ComponentModel;
 using System.Windows.Forms;
 using log4net;
-using NEC.ESBU.Ticketing.Client.ValidatorBase.CardCommands;
-using NEC.ESBU.Ticketing.Client.ValidatorBase.Config;
-using NEC.ESBU.Ticketing.Client.ValidatorBase.Helpers;
-using NEC.ESBU.Ticketing.Client.ValidatorBase.Models;
-using NEC.ESBU.Ticketing.Objects;
+using  .Client.ValidatorBase.CardCommands;
+using  .Client.ValidatorBase.Config;
+using  .Client.ValidatorBase.Helpers;
+using  .Client.ValidatorBase.Models;
+using  .Objects;
 
-namespace NEC.ESBU.Ticketing.Client.ValidatorBase.BackgroundWorkers
+namespace  .Client.ValidatorBase.BackgroundWorkers
 {
     public class UpdateUIWorker : WorkerBase
     {

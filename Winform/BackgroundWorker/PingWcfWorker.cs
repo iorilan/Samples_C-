@@ -1,11 +1,11 @@
 ﻿using System;
 using System.ComponentModel;
 using System.ServiceModel;
-using NEC.ESBU.Ticketing.Client.ValidatorBase.Config;
-using NEC.ESBU.Ticketing.Client.ValidatorBase.Factory;
-using NEC.ESBU.Ticketing.Client.ValidatorBase.Helpers;
+using  .Client.ValidatorBase.Config;
+using  .Client.ValidatorBase.Factory;
+using  .Client.ValidatorBase.Helpers;
 
-namespace NEC.ESBU.Ticketing.Client.ValidatorBase.BackgroundWorkers
+namespace  .Client.ValidatorBase.BackgroundWorkers
 {
     public class PingWcfWorker : WorkerBase
     {

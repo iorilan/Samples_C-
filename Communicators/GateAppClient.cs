@@ -6,10 +6,8 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using log4net;
-using NEC.ESBU.Ticketing.Client.ValidatorBase.Config;
-using NEC.ESBU.Ticketing.Client.ValidatorBase.Helpers;
 
-namespace NEC.ESBU.Ticketing.Client.ValidatorBase.Communicators
+namespace Communicators
 {
     public class GateAppClient
     {

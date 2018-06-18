@@ -27,7 +27,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
-using NEC.ESBU.Ticketing.Client.ValidatorBase.Helpers;
+using  .Client.ValidatorBase.Helpers;
 
 namespace SQLite
 {

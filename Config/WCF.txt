@@ -1,13 +1,13 @@
  <system.serviceModel>
     <services>
-      <service name="NEC.ESBU.Ticketing.WCF.Contracts.Service.TicketingServices" behaviorConfiguration="TicketingServices">
+      <service name=" .WCF.Contracts.Service.TicketingServices" behaviorConfiguration="TicketingServices">
         <host>
           <baseAddresses>
             <add baseAddress="http://localhost:8080/TicketingServices" />
           </baseAddresses>
         </host>
-        <endpoint address="net.tcp://localhost:9001/SDC/TicketingServices" binding="netTcpBinding" bindingConfiguration="TicketingTcpBinding" contract="NEC.ESBU.Ticketing.WCF.Contracts.Interface.ITicketWcfServer" />
-        <endpoint address="net.msmq://localhost/private/TicketingQueueServiceQueue" binding="netMsmqBinding" bindingConfiguration="DomainlessMsmqBinding" contract="NEC.ESBU.Ticketing.WCF.Contracts.Interface.ITicketQueueService" />
+        <endpoint address="net.tcp://localhost:9001/SDC/TicketingServices" binding="netTcpBinding" bindingConfiguration="TicketingTcpBinding" contract=" .WCF.Contracts.Interface.ITicketWcfServer" />
+        <endpoint address="net.msmq://localhost/private/TicketingQueueServiceQueue" binding="netMsmqBinding" bindingConfiguration="DomainlessMsmqBinding" contract=" .WCF.Contracts.Interface.ITicketQueueService" />
         <endpoint address="mex" binding="mexHttpBinding" contract="IMetadataExchange" />
       </service>
     </services>
