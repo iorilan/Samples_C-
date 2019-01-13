@@ -59,14 +59,6 @@ namespace  .Client.ValidatorBase.LocalStorage
 
         public override string ToString()
         {
-            //·         Usage Date
-            //·         Ticket Number
-            //·         Facility ID
-            //·         Operation ID
-            //·         Validator ID
-            //.         OperatorID
-            //.         ItemDescription
-            //.         Remarks
             return string.Format("{0}|{1}|{2}|{3}|{4}|{5}|{6}|{7}", UsageDate, TicketNumber, FacilityID, OperationID, ValidatorID, Login.LoggedInAdmin, ItemDescription, Remarks);
         }
     }
