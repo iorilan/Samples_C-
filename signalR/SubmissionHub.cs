@@ -6,7 +6,7 @@ using log4net;
 using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.SignalR.Hubs;
 
-namespace SingpoolVerificationApp.Hub
+namespace SampleVerificationApp.Hub
 {
     [HubName("submissionHub")]
     public class SubmissionHub : Microsoft.AspNet.SignalR.Hub
